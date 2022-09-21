@@ -1,0 +1,144 @@
+*{
+    border:none;
+    outline:none;
+}
+
+:root {
+	--dark: #374151;
+	--darker: #1F2937;
+	--darkest: #111827;
+	--grey: #6B7280;
+	--pink: #EC4899;
+	--purple: #8B5CF6;
+	--light: #EEE;
+}
+body{
+    background-color: black;
+
+}
+
+header{
+    margin-bottom: 4rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin: 0 auto; */
+    
+}
+
+form{
+    
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+
+}
+
+.input{
+    /*
+    background-color: var(--darkest);
+    color: var(--pinkor: var(--darkest);
+    color: var(--pink);
+    border-radius: 1rem;
+    margin-right: 1rem;
+    border-color: var(--light );
+    width:5rem; */
+    height:50px;
+    border-radius: 20px;
+    padding-left:17px;
+    background-color: var(--darkest);
+    margin-top:30px;color: var(--pink);
+    font-size:inherit;
+}
+
+#result{
+    border:2px groove white;
+    border-radius: 20px;
+    padding:20px;
+}
+
+h4{
+    margin-top:2.1rem;
+    margin-left:0.5rem;
+    color:var(--purple);
+}
+.submit{
+    font-size: 1.25rem ;
+    font-weight: 800;
+    margin: 1rem;
+    background-image:linear-gradient(to right,var(--pink),var(--purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*Planet Images*/
+.Mercury{
+    
+    margin:2.5rem;
+    height:200px;
+    width:200px;
+}
+ .Venus{
+    margin-top:3rem;
+    margin-right:2rem;
+
+    height:150px;
+    width:200px;
+}
+.Earth{
+    height:300px;
+    width:300px;
+}
+.Mars{
+    height:200px;
+    width:200px;
+    margin:2.3rem;
+}
+.Jupiter{
+    height:300px;
+    width:300px;
+}
+.Saturn{
+    height:250px;
+    width: 450px;
+    margin-top:1rem;
+}
+.Uranus{
+    height:250px;
+    width:250px;
+    margin-top:3.5rem;
+} 
+
+ .Neptune{
+    margin-top:3.5rem;
+    margin-right:50px;
+    height:230px;
+    width:250px;
+}
+/*
+img{
+    height:300px;
+    width:300px;
+} */
+
+
+/*Planets grouping*/
+.set-first{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+    overflow: hidden;
+}
+
+.second-set{
+
+    margin-right: 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+    overflow: hidden;
+}
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weight Calculator</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Calculating weight on different planets.</h1>
+    <header>
+      <form id="weight-form">
+        <input
+          onkeyup=""
+          class="input"
+          id="weightInput"
+          type="text"
+          placeholder="Enter weight"
+        />
+        <input
+          class="submit"
+          id="submission"
+          type="submit"
+          value="Click on a planet to calculate"
+        />
+      </form>
+      <h4 id="submit-heading"></h4>
+      <div class="output">
+        <h4 id="result"></h4>
+      </div>
+    </header>
+
+    <main>
+      <div class="set-first">
+        <button style="background-color: black" onclick="Mercury()">
+          <img class="Mercury" src="imagesx/mercury.gif" />
+        </button>
+
+        <button style="background-color: black" onclick="Venus()">
+          <img class="Venus" src="imagesx/venus-skin-256-medium.gif" />
+        </button>
+
+        <button onclick="Earth()" style="background-color: black">
+          <img class="Earth" src="imagesx/Rotating_earth_animated.gif" />
+        </button>
+
+        <button onclick="Mars()" style="background-color: black">
+          <img class="Mars" src="imagesx/mars_r.gif" />
+        </button>
+      </div>
+
+      <div class="second-set">
+        <button onclick="Jupiter()" style="background-color: black">
+          <img class="Jupiter" src="imagesx/jupiter-planet.gif" />
+        </button>
+
+        <button style="background-color: black" onclick="Saturn()">
+          <img class="Saturn" src="imagesx/Saturn_during_Equinox.jpg" />
+        </button>
+        <button style="background-color: black" onclick="Uranus()">
+          <img class="Uranus" src="imagesx/Uranus.jpg" />
+        </button>
+        <button style="background-color: black" onclick="Neptune()">
+          <img class="Neptune" src="imagesx/Neptune.gif" />
+        </button>
+      </div>
+    </main>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
